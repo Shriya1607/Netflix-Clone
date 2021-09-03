@@ -1,0 +1,27 @@
+.movierow {
+  padding: 20px;
+}
+.movierow_thumbnail::-webkit-scrollbar {
+  display: none;
+}
+
+.movierow_thumbnail {
+  overflow-x: scroll;
+  display: flex;
+}
+
+.movierow_image {
+  width: 200px;
+  height: 300px;
+  padding-right: 10px;
+  transition: transform 350ms;
+}
+.movierow_image:hover {
+  transform: scale(1.08);
+}
+.movierow > h2 {
+  font-size: 19px;
+  padding-left: 20px;
+  color: white;
+  /* position: fixed; */
+}
